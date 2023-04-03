@@ -1,0 +1,604 @@
+
+
+ 
+ 
+ /* sticky nav bar */ 
+/* .navbar {
+   position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#CC2ACF;
+  
+}
+
+
+.slider {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .text {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+  } */
+  /* /* sticky ends */
+  
+  
+
+/* sliding headings  */
+
+.slide-in-container {
+    position: absolute;
+    left: -100%;
+  }
+  .slide-in-container {
+    position: absolute;
+    left: -100%;
+    animation: slide-in 3s forwards;
+  }
+  
+  
+  
+  
+  @keyframes slide-in {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+  
+  /* sliding heading ends */
+  
+  
+
+h1{
+  font-size: 70px;
+  
+   color:white  ;
+  font-style: oblique;
+   /* text-shadow: 2px 2px; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+     padding-top: 5em;
+    padding-left:  4em; 
+    
+}
+/* .run span{
+  color: white;
+  font-size: 110px;
+} */
+
+.contents{
+   
+    background:linear-gradient(rgba(0,0 ,0 , 0.8),rgba(0, 0, 0, 0.9)), url(../images/bg4.jpg)no-repeat;
+   /* opacity:.5; */
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    width: 100%;
+}
+.run{
+  padding-right: 5em;
+     margin-right: 15em;
+}
+    
+
+.container-fluid{
+    background-color:white;
+    color: pink;
+}
+.nav-item{
+   margin-left: 2em;
+
+}
+#navbarNav{
+   
+    margin-left: 24em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+ 
+
+h2{
+     
+    text-align: left;
+    padding-top: 1em;
+    padding-left: 1.6em;
+    font-size: 70px ; 
+    color: #008b8b;
+
+
+}
+
+
+
+/* about us */
+
+.ptag{
+  /* background: url()no-repeat; */
+  /* background-color:  white; */
+  height: 600px;;
+  font-size: large;
+    padding-top: 10em;
+    padding-left: 8em;
+    text-align: left;
+}
+
+
+/* what we do */
+.box{
+  margin-bottom: -4em;
+    background-color: #dbd7d2;;
+    height: 1200px;
+  /* background: url()no-repeat; */
+  background-size: cover;
+  /* height: 1200px; */
+   
+}
+ 
+
+.i-container{
+ 
+    padding-left: 11em;
+    /* margin-top: 20em; */
+    padding-top: 22em;
+
+}
+
+.what-container{
+   
+    padding-left: 38em;
+    margin-top: -19em;
+}
+.whats-container{
+   
+    padding-left: 64em;
+    margin-top: -19em;
+}
+.w-container{
+   
+    padding-top: 3em;
+    padding-left: 11em;
+    /* margin-top: -17em; */
+}
+.h-container{
+  
+    margin-top:-19em ;
+    padding-left: 38em;
+    
+}
+.a-container{
+   
+    padding-left: 64em;
+    margin-top: -19em;
+}
+h5{
+    color: #008b8b;
+    text-align: center;
+    background-color: #008b8b;
+    
+}
+
+.chose{
+
+  /* background: url()no-repeat; */
+  background-color: #dbd7d2;
+  height: 800px;
+  margin-top: 0em;
+  padding-top: 8em;
+}
+
+.why{
+
+padding-top: 1em;
+}
+
+
+.whys {
+   
+    padding-top: 15em;
+    font-size: larger;
+    padding-left: 8em;
+    /* margin-bottom: 20em; */
+    border-color: red;
+}
+.whys.li{
+    color: #008b8b;
+}
+
+
+
+/* what we do ends */
+
+
+
+
+
+
+
+/* loader */
+
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
+
+
+/* loader */
+
+
+
+
+
+
+
+
+
+
+
+/* how we do */
+.howi{
+  padding-top: 9em;
+  /* background-color:  #ffe5b4; */
+  height: 1500px;
+   
+}
+ 
+.image-container {
+  position: relative;
+  display: inline-block;
+ 
+}
+.image-container h4{
+  font-size: 40px;
+   text-align: center;
+   color: #ff4500 ;
+}
+ 
+.image-overlay {
+  border-width: 5em;
+  border-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  align-items:center;
+  justify-content: center; 
+  font-size: 20px;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+
+
+ .cont{
+  
+  padding-left: 5em;
+  padding-top: 18em;
+ }
+  
+.conta{
+  padding-left: 36em;
+  margin-top: -25em;
+}
+.conts{
+  padding-left:67em ;
+  margin-top: -25em;
+}
+.conte{
+  padding-top: 6em;
+  padding-left: 5em;
+}
+.conti{
+  padding-left: 36em;
+  margin-top: -25em;
+}
+.conto{
+  padding-left:67em ;
+  margin-top: -25em;
+}
+
+/* how we do ends */
+
+ 
+/* career start */
+.careers{
+  /* background: url()no-repeat; */
+  /* background-color: #ffe5b4; */
+  height: 1000px;
+ 
+}
+.careers h2{
+  padding-top: 2em;
+}
+.con{
+ 
+    padding-top: 22em;
+    text-align: left;
+    padding-left: 17em;
+}
+.con span{
+    color: white;
+    background-color: blue;
+}
+.con h3{
+    color: #008b8b;
+}
+.icon{
+     
+    padding-top: 3em;
+   padding-left: 20em;
+   
+}
+.list-item{
+   color:   black;
+    line-height: 3;   
+    padding-left: 2em;
+    text-decoration:none;
+}
+/* career ends */
+
+
+/* contact us starts */
+
+.inputBox{
+  background: url(../images/msg2.webp)no-repeat; 
+  margin-right: -25em;
+ padding-bottom: 18em;
+  padding-left: 45em;
+}
+.inputBoxs{
+  margin-left: -20em;
+  padding-top: 2em;
+  /* padding-right: 4em; */
+}
+.order h1{
+    color: black;
+    text-align: center;
+}
+
+.order .row{
+    padding:2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background:#fff;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    gap:1.5rem;
+    border-radius: .5rem;
+  }
+  
+  /* .order .row .image{
+    flex:1 0 30rem;
+  } */
+  
+  /* .order .row .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: .5rem;
+  }
+   */
+  /* .order .row form{
+    flex:1 1 50rem;
+     padding:1rem;
+  }
+   */
+  .order .row form .inputBox{
+    
+    padding-left: 35em;
+
+  } 
+  
+  
+  .order .row form .inputBox input, .order .row form textarea{
+    padding:1rem;
+    margin:1rem 0;
+    font-size: 1rem;
+    color:#333;
+    /* text-transform: none; */
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    width: 300px;
+  }
+  
+  .order .row form textarea{
+    width:50%;
+    /* resize: none; */
+    height:5rem;
+  }
+  /* contact ends */
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+.btns{
+  color: white;
+   padding-left: 20em;
+   margin-top: -18em;
+  border-radius: 2em;
+  
+}
+.btn2{
+  background-color:#1b1b1b ;
+  color: white;
+  border-radius: 2em;
+  size: 5em;
+}
+.btn2:hover{
+  background-color:#080808 ;
+  transition:0.5s;
+}
+
+.btn:hover{
+  background-color:blue;
+  transition: 0.5s;
+
+}
+.btn{
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color:#008b8b;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.row{
+ 
+  padding-top: 2em;
+   /* margin-top: -20em; */
+   /* margin-right: 6em; */
+
+}
+
+.row h1{
+  color: #000;
+  text-align: center;
+  padding-right: 50em;
+}
+
+
+  .share{
+    text-decoration: none;
+  }
+  
+  .social:hover{
+    color:#fff;
+  }
+    .footer{
+    background:#000  ;
+    text-align: center;
+  }
+  
+  .footer .share{
+    display: flex;
+    gap:1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer .credit{
+    text-align: center;
+    padding:2.5rem 1rem;
+    color:#fff;
+    font-weight: normal;
+    font-size: 4rem;
+  }
+ 
+ /* footer css ends */
+
+  
+
+
+
+ /* chat box */
+
+ /* Button used to open the chat form - fixed at the bottom of the page */
+.chat {
+   
+  /* padding: 16px 20px; */
+  border: none;
+  cursor: pointer;
+  /* opacity: 0.8; */
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  height: 80px;
+  width: 80px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color:#008b8b;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color:#111;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
